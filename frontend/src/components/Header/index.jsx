@@ -7,14 +7,15 @@ export default function Header() {
             {/* Logo */}
             <div className='logo'>
                 <Link to='/'>
-                    <span className='logo-1'>K</span>
-                    <span className='logo-2'>C</span>
+                    <span className='logo-1'>S</span>
+                    <span className='logo-2'>K</span>
+                    <span className='logo-3'>C</span>
                 </Link>
             </div>
 
             {/* Busca */}
-            <div className='seach-bar'>
-                <input type='text' placeholder='Buscar "Apartamento' />
+            <div className='search-bar'>
+                <input type='text' placeholder='Buscar "apartamento"' />
                 <div className='location'>
                     <button className='search-btn'>
                     <ion-icon name="search-outline"></ion-icon>
@@ -22,7 +23,17 @@ export default function Header() {
                 </div>
             </div>
 
-
+            {/* Botões */}
+            <nav className='navbar'>
+                <ul>
+                    <li>
+                        <Link to='/signin' className='entrarBtn'>Entrar</Link>
+                    </li>
+                    <li>
+                    <Link to='/' className='anunciarBtn'>Anunciar gratis</Link>
+                    </li>
+                </ul>
+            </nav>
         </header>
     )
 }
