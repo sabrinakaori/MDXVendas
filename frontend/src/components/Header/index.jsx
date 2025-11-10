@@ -51,9 +51,9 @@ const handleLogout = () => {
             {/*Logo*/}
             <div className='logo'>
                 <Link to='/'>
-                    <span className='logo-1'>A</span>
+                    <span className='logo-1'>S</span>
                     <span className='logo-2'>&</span>
-                    <span className='logo-3'>L</span>
+                    <span className='logo-3'>C</span>
                 </Link>
             </div>
 

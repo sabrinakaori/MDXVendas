@@ -1,16 +1,16 @@
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
-import Signin from './pages/Signin'
-import SignUp from './pages/SignUp'
+import SignIn from './pages/Home/Signin'
+import SignUp from './pages/Home/SignUp'
 
 export default () => {
-    return (
+    return(
         <Routes>
-            <Route path='/' element={<Home />}/>
+            <Route path='/' element={<Home/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='*' element={<div>Página não encontrada</div>}/>
-            <Route path='/signin' element={<Signin/>}/>
+            <Route path='/signin' element={<SignIn/>}/>
             <Route path='/signup' element={<SignUp/>}/>
         </Routes>
     )

@@ -1,10 +1,10 @@
 import './Categories.css';
-import Celular from '../../assets/aplicativo-movel.png';
-import Carro from '../../assets/carro.png';
-import Decoracao from '../../assets/decoracao-da-casa.png';
-import Eletro from '../../assets/eletrodomestico.png';
-import Esporte from '../../assets/esporte.png'
-import Habitacao from '../../assets/habitacao.png'
+import Celular from '../../assets/img/aplicativo-movel.png';
+import Carro from '../../assets/img/carro.png';
+import Decoracao from '../../assets/img/decoracao-da-casa.png';
+import Eletro from '../../assets/img/eletrodomestico.png';
+import Esporte from '../../assets/img/esporte.png'
+import Habitacao from '../../assets/img/habitacao.png'
 
 const categories = [
     {name: 'Celular', img: Celular},
